@@ -21,6 +21,9 @@
 <?php if ($is_posted === TRUE) { ?>
         <p><?php print $complete; ?></p>
 <?php } ?>
+        <ul>
+            <li><a href="home.php">TOPページ</a></li>
+        </ul>
         <h2>新規カテゴリ追加</h2>
         <form method="post">
             <input type="hidden" name="process_type" value="new_category">

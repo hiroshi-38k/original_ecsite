@@ -72,11 +72,19 @@
                 </nav>
                 <nav>
                     <section>
-                        <h2><a href="information.php">お知らせ</a></h2>
-                            <p>サイト利用方法</p>
-                        <div class="information">
-                            <a href="information.php">続きを読む</a>
-                        </div>
+                        <h2><a href="information.php">メニュー</a></h2>
+                        <ul>
+                        　 <li><a href="home.php">TOPページ</li>
+                            <li><a href="information.php">サイト利用方法</a></li>
+                            <li><a href="itemlist.php">商品一覧</li>
+                            <li><a href="trend.php">最新情報</a></li>
+                            <li><a href="sale.php">セール情報</a></li>
+                            <li><a href="history.php">購入履歴</a></li>
+                        <?php if($user_id === 1){?>
+                            <li><a href="manage_item.php">商品管理</a></li>
+                            <li><a href="manage_category.php">カテゴリ管理</a></li>
+                        <?php } ?>
+                        </ul>
                     </section>
                     <section>
                         <h2>新着商品ピックアップ</h2>

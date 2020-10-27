@@ -22,6 +22,9 @@
 <?php if ($is_posted === TRUE) { ?>
         <p><?php print $complete; ?></p>
 <?php } ?>
+        <ul>
+            <li><a href="home.php">TOPページ</a></li>
+        </ul>
         <h2>新規商品追加</h2>
         <form method="post" enctype="multipart/form-data">
             <input type="hidden" name="process_type" value="new_item">
