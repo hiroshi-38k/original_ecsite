@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-size: 18px;
+    padding: 5px;;
+    margin-bottom: 5px;
+}
+p {
+    font-size: 16px;
+}
+ul, ul a  {
+    font-size: 16px;
+    list-style-type: none;
+    text-decoration: none;
+    color: brown;
+}
+
+.fixed_container {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+}
+.container {
+    display: flex;
+}
+.contents {
+    min-width: 770px;
+}
+.itemlist {
+    min-width: 610px;
+}
+.list_price {
+    text-decoration: line-through;
+}
+.sale_price {
+    color: red;
+}
+
+header {
+    border-bottom: solid 2px gray;
+    background-color: #ffffff;
+}
+header.fixed_container {
+    border-top: solid 2px gray;
+    border-left: solid 2px gray;
+}
+header .fixed_container img {
+    width: 160px;
+    height: 60px;
+}
+header .fixed_container form {
+    border-right: solid 2px gray;
+    padding: 5px 10px 0 10px;
+    flex: 2;
+}
+header .fixed_container div {
+    border-right: solid 2px gray;
+    padding: 0 10px;
+    padding-top: 8px;
+}
+header .fixed_container div a {
+    text-decoration: none;
+    vertical-align: middle;
+    color: brown;
+}
+header .fixed_container div a img {
+    width: 40px;
+    height: 40px;
+}
+main div form, section {
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #F5F5DC;
+}
+
+main div form p {
+    padding: 5px;
+    padding-left: 20px;
+}
+h2 a {
+    display: block;
+}
+h2, h2 a{
+    text-decoration: none;
+    background-color: #BDB76B;
+    color: white;
+}
+table {
+    border-collapse: collapse;
+}
+th, td {
+    border: solid 1px black;
+}
+td:nth-child(1) {
+    width:100px;
+}
+td:nth-child(2) {
+    width:100px;
+}
+td:nth-child(4) {
+    width:120px;
+}
+td:nth-child(5) {
+    width: 100px;
+    text-align: center;
+}
+td:nth-child(6) {
+    text-align: center;
+}
+td img {
+    width: 100px;
+    height: 100px;
+}
+.information {
+    padding: 5px 2px 0 0;
+    background-position: 20px 10px;
+    background-image: url(../img/arrow.jpg);
+    background-size: 12px;
+    background-repeat: no-repeat;  
+    text-align: right;
+}
+.information a {
+    text-decoration: none;
+    color: brown;
+}
+.ranking {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #F5F5DC;
+    max-width: 190px;
+}
+.ranking article form, .ranking article form p {
+    margin: 0;
+    padding: 0;
+}
+.ranking article form p input {
+    width: 150px;
+    height: 120px;
+}
+.ranking article h3 {
+    font-size: 14px;
+    font-weight: bold;
+}
