@@ -5,7 +5,6 @@
 */
 // 設定ファイルの読み込み
 require_once './conf/common_setting.php';
-require_once './conf/login_setting.php';
 // 関数ファイルの読み込み
 require_once './model/common_model.php';
 require_once './model/login_model.php';
